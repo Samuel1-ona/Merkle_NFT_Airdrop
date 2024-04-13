@@ -3,9 +3,9 @@ pragma solidity ^0.8.13;
 
 import {Test, console2, stdJson} from "forge-std/Test.sol";
 
-import {Merkle} from "../src/AbegToken.sol";
+import {Merkle} from "../src/CovalNFT.sol";
 
-contract AbegTest is Test {
+contract CovalTest is Test {
     using stdJson for string;
     Merkle public merkle;
     struct Result {
